@@ -13,6 +13,5 @@ function johnLennonFacts(facts){
     facts[i] = facts[i] + '!!!'
     i++;
   }
- console.log(facts)
+ return facts;
 }
-johnLennonFacts(facts);
